@@ -1,0 +1,54 @@
+{
+  "gameName": "Rust",
+  "steamAppId": 258550,
+  "steamDbUrl": "https://steamdb.info/app/252490/info/",
+  "icon": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/252490/820be4782639f9c4b64fa3ca7e6c26a95ae4fd1c.jpg",
+  "logo": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/252490/ced8982cc46ce2b31cdb746f0abf61e9e8935913.jpg",
+  "developer": "Facepunch Studios",
+  "publisher": "Facepunch Studios",
+  "exeFilename": "RustDedicated.exe",
+  "argumentPrefix": "+",
+  "argumentDelimiter": "=",
+  "arguments": {
+    "map": {
+      "name": "Map",
+      "argument": "server.level",
+	  "example": "+server.hostname",
+      "delimiter": "=",
+      "exampleValue": "Procedural Map",
+      "value-directly-specified-without-argument": true,
+      "order": 1
+    },
+    "port": {
+      "name": "Port",
+      "argument": "server.port",
+      "example": "+server.port",
+      "exampleValue": "27015",
+      "order": 1
+    },
+    "log": {
+      "name": "Log",
+      "argument": "log",
+      "example": "-log",
+      "exampleValue": "blah.log",
+      "delimiter": "=",
+      "order": 2
+    },
+    "hostname": {
+      "name": "Hostname",
+      "argument": "server.hostname",
+      "example": "+server.hostname",
+      "exampleValue": "My Server",
+      "delimiter": "=",
+      "order": 3
+    }
+  },
+  "folders": {
+  "logs": "logs",
+  "plugins": "plugins"
+  },
+  "addons": {
+    "supportsMetamod": false,
+    "supportsSourceMod": false
+  }
+}
