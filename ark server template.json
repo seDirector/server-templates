@@ -1,0 +1,42 @@
+{
+  "gameName": "Ark: Survival Evolved",
+  "steamAppId": 376030,
+  "steamDbUrl": "https://steamdb.info/app/346110/info/",
+  "icon": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/346110/fef1799533131c10f538d2dd697bbbd89e663265.jpg",
+  "logo": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/346110/58a660ddb7ed1864656ec65e4c18d6edd3bbf512.jpg",
+  "developer": "Studio Wildcard",
+  "publisher": "Studio Wildcard",
+  "exeFilename": "ShooterGameServer.exe",
+  "argumentPrefix": "?",
+  "argumentDelimiter": "=",
+  "arguments": {
+    "map": {
+      "name": "Map",
+      "argument": "TheIsland",
+	    "example": "TheIsland",
+      "delimiter": "=",
+      "exampleValue": "TheIsland",
+      "value-directly-specified-without-argument": true,
+      "order": 1
+    },
+    "port": {
+      "name": "Port",
+      "argument": "Port",
+      "example": "Port=",
+      "exampleValue": "27015",
+      "order": 1
+    },
+    "hostname": {
+      "name": "Hostname",
+      "argument": "SessionName",
+      "example": "SessionName=",
+      "exampleValue": "My Server",
+      "delimiter": "=",
+      "order": 2
+    }
+  },
+  "addons": {
+    "supportsMetamod": false,
+    "supportsSourceMod": false
+  }
+}
